@@ -1,0 +1,13 @@
+name: processing_plants_points_map
+title: processing_plants_points_map
+username: animalask
+account: animalask
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11959119
+bundleId: 8589842
+url: https://animalask.shinyapps.io/processing_plants_points_map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .here

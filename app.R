@@ -6,16 +6,16 @@ library(shiny) #For creating the shiny web app
 library(sf) #For spatial data
 library(ggplot2) #For graphing
 library(scales) #To help graphing
-library(ggnewscale) #To help graphing
 library(terra) #for spatial data
-library(tidyterra)
+library(tidyterra) #For graphing spatial data
+library(plotly) #For interactive graphing
 
 #################
 ### Load data ###
 #################
 
-read_df_shiny_4 <- readRDS("df_shiny_4.Rda")
-states_for_graphing <- readRDS("df_shiny_4_states_for_graphing.Rda")
+read_df_shiny_4 <- readRDS("data/df_shiny_4.Rda")
+states_for_graphing <- readRDS("data/df_shiny_4_states_for_graphing.Rda")
 
 #################################
 ### Define UI for application ###
